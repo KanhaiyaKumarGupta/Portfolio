@@ -84,6 +84,31 @@ st.markdown(
     """
     )
 
+col9, col10 = st.columns([1, 3])
+
+with col9:
+    st.subheader("Linkedin Backend API Golang")
+    st.markdown("[Github](https://github.com/KanhaiyaKumarGupta/Linkedin-Backend)")
+
+with col10:
+    st.write("""
+    The LinkedIn Backend API developed in Golang serves as the backend infrastructure for a LinkedIn-like professional networking platform. Golang, also known as Go, is a statically typed, compiled language designed for simplicity and efficiency, making it a suitable choice for building robust and scalable backend systems.
+    """)
+
+col7, col8 = st.columns([1, 3])
+
+with col7:
+    st.subheader("Restrautrant Management Golang API")
+    st.markdown("[Github](https://github.com/KanhaiyaKumarGupta/Restaurant-Management-Golang)")
+
+with col8:
+    st.write("""
+    Developed Golang APIs for a restaurant management system, covering food
+order, table, and menu models. These APIs played a pivotal role in streamlining restaurant operations, underscoring my
+proficiency in both API design and backend development.
+    """)
+
+
 col1, col2 = st.columns([1, 3])
 
 with col1:
